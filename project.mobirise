@@ -23,7 +23,9 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 6,
-    "versionPublish": "3.12.1"
+    "versionPublish": "3.12.1",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -42,7 +44,9 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -52,8 +56,8 @@
             },
             ".link, .dropdown-item": {
               "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-              "font-family": "'Montserrat', sans-serif"
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700",
+              "font-family": "'Merriweather', serif"
             },
             ".link": {
               "font-size": "0.95rem"
@@ -96,9 +100,9 @@
             "bgColor": "#282828",
             "fontSize": "0.95",
             "fontName": {
-              "name": "Montserrat",
-              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
-              "css": "'Montserrat', sans-serif"
+              "name": "Merriweather",
+              "url": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700",
+              "css": "'Merriweather', serif"
             },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
@@ -135,10 +139,25 @@
             "Extension"
           ],
           "_name": "extHeader4",
+          "_styles": {
+            "H2": {
+              "text-align": "center",
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700"
+            },
+            ".intro-box h4": {
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700"
+            },
+            ".btn": {
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700"
+            }
+          },
           "_anchor": "extHeader4-1",
           "_params": {
             "formBorder": true,
-            "formColor": "#c1c1c1",
+            "formColor": "#a7a6a6",
             "formStyle": "light",
             "parallax": false,
             "bgImageRadio": true,
@@ -213,12 +232,7 @@
             }
           },
           "title3": "",
-          "text2": ".",
-          "_styles": {
-            "H2": {
-              "text-align": "center"
-            }
-          }
+          "text2": "."
         }
       ]
     }
